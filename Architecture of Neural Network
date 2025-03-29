@@ -1,0 +1,44 @@
+Architecture of Neural Networks
+-> It refers to the structure or design of the network, which defines how the neurons (or nodes) are organised, connected, and how dta flows through the network.
+
+1) Input Layer: Resposible for receiving the initial data features that are fed into the neural network.
+2) Hidden Layers: Intermediate layers between the input & output layers. They perform complex computation and transformation on the input data. A neural network can have numerous hidden layer consisting of numerous neurons or nodes.
+3) Neurons (Nodes): They receive input signals and perform computations to produce and output. Neurons in the hidden and output layers utilize activation functions to introduce non-linearities into the network, allowing it to learn complex patterns.
+4) Weights & Biases: Weights & Biases are adjustable parameters with the connections between neurons. Each connection has a weight, which determines the strength or importance of input signal. Biases, on the other hadn, provide an additional tunable parameter that allows neurons to adjust their activation threshold.
+5) Activation function: Activation function are threshold valuses that introduce non-linearites into the neural network, enabling it to comprehend complex relationships between inputs & outputs. Common activation functions include sigmoid, tanh, Relu a (Rectified Linear Unit) & Softmax.
+6) Output Layer: It generates the final predictions or output of neural network.
+7) Loss function: The loss function measures the discrepancy between the predicted output of the neural network and true value.
+8) Back Propagation: It is a learning algorithm used to train a neural network. It involves propagating the error backward through the network and adjusting the weights & biases iteratively to mimimize the loss function.
+9) Optimization Algorithm: Optimization algorithms, such as gradient descent, are employed to update weigths and biases during training. These algorithms determine the direction and magnitude of weigths adjustments based on the gradient of loss function concerning the network parameters.
+
+Different types of Activation Funchx: sigmoid sigmat: Useful for binary classificerin tanku, bout →ReLU due to It aupun positive suffer fro 1. Default choice among cruchitechar ith simplicity and efficiency function that Carpiece was directly big usse input the Otherwise if it it auspus zen.
+
+Genrative Adversarial Network (GAN):
+
+* Comists of two e network: a generator that creates fake data and O discrimination that tries to benveen real fake data. a differentale These neturers are used for tarles Cohe image generation, Style transfer en.
+
+6) Auteencoders:
+
+3 Ummpanied neinal nervorke wied Karles like data compression and Roamer Learning. They feature chader that and comprence Committs of the clave decoder that re construch it 25 6
+
+7) Tramfarmer Network:
+
+Used primarily for NLP. taulu-tranmfermer rely on self anims to mechanime for attenan process sequences of class, offering advantage over Nadbistma • especially tacks like machine teamland, language modeling en. 224
+
+GRADIENT DESCENT
+
+It is a key optimization algorithin wred to in minimize nemal the loss function network 'destruing training.
+
+→ The goal is to adjunt cund biases in minimize the ust the weighis network to the difference between the predicted output and Ex the actual target values Cine, minimize the loss)
+
+How Gradient Descent worm?
+
+Forward Pars:
+
+→ Input date is posed through the nemical network
+
+The network produces bored on its curred output and biases
+
+1) Gmpute loss. →The difference
+
+difference berucor the predicted auljad and the Computed Ceg, Mean Squared wiing a loss function Ce Farrar, Cross- Farropy (os)
