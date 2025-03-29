@@ -1,4 +1,4 @@
-Architecture of Neural Networks
+# Architecture of Neural Networks
 -> It refers to the structure or design
 of the network, which defines how the
 neurons (or nodes) are organised,
