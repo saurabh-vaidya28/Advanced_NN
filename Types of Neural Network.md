@@ -25,7 +25,7 @@ Consits of two network, a generator that creates fake data and discrimination th
 
 <br>
 
-### 6) Auteencoders:
+### 6) Autoencoders:
 Unsupervised neural network used for tasks like data compression and feature learning. They consist of an encoder that compresses the data and a decoder that reconstructs it.
 
 <br>
