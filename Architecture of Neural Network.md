@@ -1,15 +1,20 @@
 Architecture of Neural Networks
--> It refers to the structure or design of the network, 
-which defines how the neurons (or nodes) are organised,
-connected, and how data flows through the network.
+-> It refers to the structure or design
+of the network, which defines how the
+neurons (or nodes) are organised,
+connected, and how data flows through
+the network.
 
-1) Input Layer: Resposible for receiving the initial
-data features that are fed into the neural network.
+1) Input Layer: Resposible for receiving
+the initialdata features that are fed
+into the neural network.
 
-2) Hidden Layers: Intermediate layers between the 
-input & output layers. They perform complex computation 
-and transformation on the input data. A neural network
-can have numerous hidden layer consisting of numerous
+2) Hidden Layers: Intermediate layers 
+between the input & output layers.
+They perform complex computation 
+and transformation on the input data.
+A neural network can have numerous 
+hidden layer consisting of numerous
 neurons or nodes.
 
 3) Neurons (Nodes): They receive input signals and perform computations to produce and output. Neurons in the hidden and output layers utilize activation functions to introduce non-linearities into the network, allowing it to learn complex patterns.
