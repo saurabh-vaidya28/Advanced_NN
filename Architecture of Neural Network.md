@@ -28,7 +28,8 @@ It is a learning algorithm used to train a neural network. It involves propagati
 ## 9) Optimization Algorithm: 
 Optimization algorithms, such as gradient descent, are employed to update weigths and biases during training. These algorithms determine the direction and magnitude of weigths adjustments based on the gradient of loss function concerning the network parameters.
 
-
+<br>
+<br>
 ## Different types of Activation Funtion:
 ### -> **sigmoid:** Useful for binary classificerin task, but can suffer from vanishing gradients
 ### -> **ReLU:** Default choice in many architectures due to its simplicity and efficiency. It is a piece wise linear function that outputs the input directlys if it is positive, otherwise it outputs zero.
