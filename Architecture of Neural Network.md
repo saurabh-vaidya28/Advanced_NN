@@ -30,13 +30,15 @@ Optimization algorithms, such as gradient descent, are employed to update weigth
 
 <br>
 <br>
+
 ## Different types of Activation Funtion:
 ### -> **sigmoid:** Useful for binary classificerin task, but can suffer from vanishing gradients
 ### -> **ReLU:** Default choice in many architectures due to its simplicity and efficiency. It is a piece wise linear function that outputs the input directlys if it is positive, otherwise it outputs zero.
 ### -> **Tanh:** Similar to sigmoid but output values between -1 & 1.
 ### -> **Softmax:** Often used in the output layer for multi-class classification problem.
 
-
+<br>
+<br>
 
 ## Two types types of Loss function:
 ### 1) Mear Squared Error: for regression task
