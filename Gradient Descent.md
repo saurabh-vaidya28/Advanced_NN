@@ -5,8 +5,8 @@
 
 ### How Gradient Descent works?
 1) Forward Bias:<br>
-  - Input data is passed through the neural network.
-  - The network produces an output based on its current weight and biases.
+    - Input data is passed through the neural network.
+    - The network produces an output based on its current weight and biases.
 
 
 
