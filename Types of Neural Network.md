@@ -1,45 +1,34 @@
 ## Types of Neural Network:
 
-1) Feedforward Neural Networks (FNN):
-The simplest type of neural network where data moves in one direction from 
-input layer to output layers with no cycles or loops. They are used for tasks
-like classification and regression. 
+### 1) Feedforward Neural Networks (FNN):
+The simplest type of neural network where data moves in one direction from input layer to output layers with no cycles or loops. They are used for tasks like classification and regression. 
 
-2) Convolutional Neural Network (CNN): 
-Primarily tuned for mange procerving tanke. They contaun convolumat layeri apply filters to extract that feature fran nages, followed by pooling down-sampling and fully Layers for da Connecte (cayers for classification
+<br>
 
-3) Recurrent Newal Networks (RNNY.
+### 2) Convolutional Neural Network (CNN): 
+Primarily used for image processing tasks. They contain convolutional layers that apply filters to extract feature from images, followed by pooling layers for down-sampling and fully connected layers for classification.
 
-1 Designed for sequential Senier between пешон the network dara Ce.gr, time where connection cycles, allowing form cyc ud memory ho to retait memory. input. RNNs are suitable for tests like (angnang modeling, Speech recognition Sets
+<br>
 
-4) Long Short-Term Memory Network (LSTM): theati design of RNN that → A type of designed captithe long-term, dependencies in sequential Clara by wring precial Called memory cells that information over time. con stre to
+### 3) Recurrent Newal Networks (RNN):
+Designed for sequential data (e.g., time series or text), where connection between neurons form cycles, allowing the network to retrain memory of previous input. RNNs are suitable for tasks like language modeling, Speech recognition etc.
 
-Genrative Adversarial Network (GAN):
+<br>
 
-* Comists of two e network: a generator that creates fake data and O discrimination that tries to benveen real fake data. a differentale These neturers are used for tarles Cohe image generation, Style transfer en.
+### 4) Long Short-Term Memory Network (LSTM): 
+A type of RNN that is designed to capture long-term dependencies in sequential data by using special units called memory cells that can store information over time.
 
-6) Auteencoders:
+<br>
 
-3 Ummpanied neinal nervorke wied Karles like data compression and Roamer Learning. They feature chader that and comprence Committs of the clave decoder that re construch it 25 6
+### 5) Genrative Adversarial Network (GAN):
+Consits of two network, a generator that creates fake data and discrimination that tries to differentiate between real & fake data. These networks are used for tasks like image generation, Style transfer etc.
 
-7) Tramfarmer Network:
+<br>
 
-Used primarily for NLP. taulu-tranmfermer rely on self anims to mechanime for attenan process sequences of class, offering advantage over Nadbistma • especially tacks like machine teamland, language modeling en. 224
+### 6) Auteencoders:
+Unsupervised neural network used for tasks like data compression and feature learning. They consist of an encoder that compresses the data and a decoder that reconstructs it.
 
-GRADIENT DESCENT
+<br>
 
-It is a key optimization algorithin wred to in minimize nemal the loss function network 'destruing training.
-
-→ The goal is to adjunt cund biases in minimize the ust the weighis network to the difference between the predicted output and Ex the actual target values Cine, minimize the loss)
-
-How Gradient Descent worm?
-
-Forward Pars:
-
-→ Input date is posed through the nemical network
-
-The network produces bored on its curred output and biases
-
-1) Gmpute loss. →The difference
-
-difference berucor the predicted auljad and the Computed Ceg, Mean Squared wiing a loss function Ce Farrar, Cross- Farropy (os)
+### 7) Tramfarmer Network:
+Used primarily for NLP tasks, transformer rely on self attention mechanism to process sequences of data, offering advantage over RNN & LSTMs, especially for task like machine translation, language modeling etc.
