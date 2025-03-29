@@ -11,9 +11,8 @@
 2) Compute loss:<br>
     - The difference between the predicted output and the actual value is computred using a loss function (e.g., MSE or Cross-Entropy loss)
     - This indicates how far predictions are from true values.
-  
+
 3) Back Propagation:<br>
-    - 
 
 
 
