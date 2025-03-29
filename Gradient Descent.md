@@ -8,7 +8,8 @@
     - Input data is passed through the neural network.
     - The network produces an output based on its current weight and biases.
 
-
+2) Compute loss:<br>
+    - The difference between the predicted output and the actual value is computred using a loss function (e.g., MSE or Cross-Entropy loss)
 
 
 
