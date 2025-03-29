@@ -26,12 +26,12 @@
 
 ## Types of Gradient Descent:
 1) Batch Gradient Descent:<br>
-        a) Compute the gradient of the loss function using the entrie dataset.
-        b) It provides a stable but computationally expensive update.
+    a) Compute the gradient of the loss function using the entrie dataset.<br>
+    b) It provides a stable but computationally expensive update.<br>
 
 2) Stochastic Gradient Descent:<br>
-        a) Computes the gradient and updates the weights using only a single data point.
-        b) It is much faster but introduces more variance in the updates, which may result in noisy or fluctuation updates.
+    a) Computes the gradient and updates the weights using only a single data point.<br>
+    b) It is much faster but introduces more variance in the updates, which may result in noisy or fluctuation updates.<br>
 
 
 
