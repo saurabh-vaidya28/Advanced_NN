@@ -11,7 +11,26 @@ Architecture of Neural Networks
 8) Back Propagation: It is a learning algorithm used to train a neural network. It involves propagating the error backward through the network and adjusting the weights & biases iteratively to mimimize the loss function.
 9) Optimization Algorithm: Optimization algorithms, such as gradient descent, are employed to update weigths and biases during training. These algorithms determine the direction and magnitude of weigths adjustments based on the gradient of loss function concerning the network parameters.
 
-Different types of Activation Funchx: sigmoid sigmat: Useful for binary classificerin tanku, bout →ReLU due to It aupun positive suffer fro 1. Default choice among cruchitechar ith simplicity and efficiency function that Carpiece was directly big usse input the Otherwise if it it auspus zen.
+Different types of Activation Funtion:
+-> sigmoid: Useful for binary classificerin task, but can suffer from vanishing gradients
+-> ReLU: Default choice in many architectures due to its simplicity and efficiency. It is a piece wise linear function that outputs the input directlys if it is positive, otherwise it outputs zero.
+-> Tanh: Similar to sigmoid but output values between -1 & 1.
+-> Softmax: Often used in the output layer for multi-class classification problem.
+
+Two types types of Loss function:
+1) Mear Squared Error: for regression task
+2) Cross-entropy loss: For classification task
+
+Types of Neural Network:
+
+1) Feedforward Neural Networks (FRIN) The simplent type of neural network where data U moves in from input layer with no to one directin Output Layes loops. They que cycles de loop. used for tonlu like classification and regression. 
+2) Convolutional Neural Network (CNN): Parily tuned for mange procerving tanke. They contaun convolumat layeri apply filters to extract that feature fran nages, followed by pooling down-sampling and fully Layers for da Connecte (cayers for classification
+
+3) Recurrent Newal Networks (RNNY.
+
+1 Designed for sequential Senier between пешон the network dara Ce.gr, time where connection cycles, allowing form cyc ud memory ho to retait memory. input. RNNs are suitable for tests like (angnang modeling, Speech recognition Sets
+
+4) Long Short-Term Memory Network (LSTM): theati design of RNN that → A type of designed captithe long-term, dependencies in sequential Clara by wring precial Called memory cells that information over time. con stre to
 
 Genrative Adversarial Network (GAN):
 
