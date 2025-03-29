@@ -13,6 +13,26 @@
     - This indicates how far predictions are from true values.
 
 3) Back Propagation:<br>
+    - The error loss is propagated backward through the network to calculate the gradients.
+    - The gradients is the partial derivative of loss with respect to each weight in the network. This tells us how much each weight in the network contributed to the error.
+  
+4) Update Weights:<br>
+    - The weights are adjusted in the direction that reduces the error. This is done by subtracting a small portion of the gradients from current weight.
+
+5) Repeat:<br>
+    - The above steps are repeated for several iterations until the loss converges to a minimum or stops decreasing significantly.
+  
+<br>
+
+## Types of Gradient Descent:
+1) Batch Gradient Descent:
+    a) Compute the gradient of the loss function using the entrie dataset.
+    b) It provides a stable but computationally expensive update.
+
+2) Stochastic Gradient Descent:
+    a) Computes the gradient and updates the weights using only a single data point.
+    b) It is much faster but introduces more variance in the updates, which may result in noisy or fluctuation updates.
+
 
 
 
