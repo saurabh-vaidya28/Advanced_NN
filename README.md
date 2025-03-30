@@ -4,9 +4,10 @@
 2. Types of Neural Network
 3. Gradient Descent
 4. Forward Propagation
-5. Back Propagation
-6. Activation Functions
-7. Optimizers
-8. Cost Functions
-9. Regularization Functions
-10. Complete DL model using ANN
+5. Vanishing Gradient Descent
+6. Back Propagation
+7. Activation Functions
+8. Optimizers
+9. Cost Functions
+10. Regularization Functions
+11. Complete DL model using ANN
